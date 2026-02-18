@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-codecommit`](https://www.npmjs.com/package/@aws-sdk/client-codecommit/v/3.287.0).
+[`@aws-sdk/client-codecommit`](https://www.npmjs.com/package/@aws-sdk/client-codecommit/v/3.288.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecommit@3.287.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecommit@3.288.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-HQmMJ4ib1x2SkyTmmIpsXuJx+4G/ZZIQPgTgJ/b7tJc9K9nq6gZDOzsJOzzC1/OV
+sha384-L142kGc6g3G/uPdfVpnsABx2Al3yCmc9VFQQT9dvgc/lgmx3sAAicZKBOMXk1ly1
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-codecommit": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecommit@3.287.0/index.min.mjs"
+            "@aws-sdk/client-codecommit": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecommit@3.288.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecommit@3.287.0/index.min.mjs": "sha384-HQmMJ4ib1x2SkyTmmIpsXuJx+4G/ZZIQPgTgJ/b7tJc9K9nq6gZDOzsJOzzC1/OV"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecommit@3.288.0/index.min.mjs": "sha384-L142kGc6g3G/uPdfVpnsABx2Al3yCmc9VFQQT9dvgc/lgmx3sAAicZKBOMXk1ly1"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-codecommit": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecommit@3.287.0/index.min.mjs"
+                        "@aws-sdk/client-codecommit": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecommit@3.288.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecommit@3.287.0/index.min.mjs": "sha384-HQmMJ4ib1x2SkyTmmIpsXuJx+4G/ZZIQPgTgJ/b7tJc9K9nq6gZDOzsJOzzC1/OV"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecommit@3.288.0/index.min.mjs": "sha384-L142kGc6g3G/uPdfVpnsABx2Al3yCmc9VFQQT9dvgc/lgmx3sAAicZKBOMXk1ly1"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.287.0`)
+* Always pin to a specific version (`@3.288.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-codecommit/blob/refs/tags/3.287.0/LICENSE
+https://github.com/cloud-sdk-builds/client-codecommit/blob/refs/tags/3.288.0/LICENSE
 ```
 
 ---
